@@ -26,7 +26,7 @@ export default function Home() {
             <TextHome text={'Transformning Ideas into'}/>
           
           
-          <div className="text-center    max-wsm xl:max-w-xl  text-gray-400 xl:mx-0 rounded  ">
+          <div className="text-center    max-wsm xl:max-w-xl  text-white xl:mx-0 rounded  ">
 
           <AnimateTextJB text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, natuseaque ipsa sit ea soluta in. Saepe suscipit nihil expedita voluptatibusrerum nisi necessitatibus eveniet, sint cupiditate ex praesentium quo?"}/>
           </div>

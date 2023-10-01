@@ -18,7 +18,7 @@ export const HeadEn = () => {
             </p>
         </div>
         <div  className=" my-2 flex justify-center items-center">
-          <nav className="flex w-full  my-2 gap-3 justify-center items-center"> 
+          <nav className="flex w-full  my-2 gap-x-5 justify-center  items-center"> 
           <a target={"_blank"} href="https://github.com/Joan-corporan?tab=repositories">
               <GitHubB />
             </a>
