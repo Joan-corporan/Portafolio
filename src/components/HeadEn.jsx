@@ -5,7 +5,7 @@ import Link from "next/link";
 export const HeadEn = () => {
   return (
     <>
-      <div className="w-full    xl:flex  xl:justify-around   xl:items-center   py-4  top-0">
+      <div className="w-full    xl:flex  xl:justify-around   xl:items-center   pt-4  top-0">
         <div className=" my-2 flex justify-center items-center">
           <Link href={'/'}>
           <h1 className=" justify-between font-bold text-3xl text-white">
@@ -17,8 +17,8 @@ export const HeadEn = () => {
               Corporán <span className="font-bold text-amber-400">.</span>
             </p>
         </div>
-        <div>
-          <nav className="w-ful flex gap-3 my-2 justify-center items-center"> 
+        <div  className=" my-2 flex justify-center items-center">
+          <nav className="flex w-full  my-2 gap-3 justify-center items-center"> 
           <a target={"_blank"} href="https://github.com/Joan-corporan?tab=repositories">
               <GitHubB />
             </a>
