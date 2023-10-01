@@ -38,7 +38,7 @@ export default function Home() {
           >
             Curriculum
           </Link>
-          <div className="flex justify-center items-center relative z-10">
+          <div className="flex justify-center items-start md:items-center xl:items-center relative z-10">
             <ProjectsBtn />
           </div>
         </div>
