@@ -36,7 +36,7 @@ export const AnimatedImage = ({src}) => {
             width={500}
             height={500}
             src={src}
-            alt=""
+            alt="desdeIzquierda"
           />
         </motion.div>
     </div>
