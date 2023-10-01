@@ -20,7 +20,7 @@ export default function Home() {
       <AnimatedImage  src='https://res.cloudinary.com/dfxpgwzls/image/upload/v1696093296/3D_Animation_Style_hombre_de_pelo_corto_ondulado_piel_negra_se_0_piroz7.jpg'/>
       </div> 
       <div className="w-full  xl:w-1/2 md:w-1/2  h-full flex justify-center " >
-        <div className="w-full text-center  flex flex-col  justify-center items-center  xl:pt-20  h-full container ">
+        <div className="w-full text-center  flex flex-col  justify-center md:items-center  xl:pt-20  h-full container ">
         
           
             <TextHome text={'Transformning Ideas into'}/>
