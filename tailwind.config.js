@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+     /* Flowbite */
+     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
@@ -19,9 +23,7 @@ module.exports = {
       animation: {
         'spin-slow': 'spin 3s linear infinite',
       },
-      bgfimages:{
-        bgimage: "https://res.cloudinary.com/dfxpgwzls/image/upload/v1695525825/fondo-portaF_dzylha.webp"
-      },
+    
       container: {
         padding: {
           DEFAULT: '15px',

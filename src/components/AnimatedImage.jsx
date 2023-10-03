@@ -33,8 +33,8 @@ export const AnimatedImage = ({src}) => {
            {/* Image es la etiqueta que nos ofrece netx y para hacer ver la imagene se necesita colocar el width y el height  */}
           <Image 
             
-            width={500}
-            height={500}
+            width={400}
+            height={400}
             src={src}
             alt="desdeIzquierda"
           />

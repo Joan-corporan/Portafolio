@@ -12,23 +12,23 @@ import Link from "next/link";
 
 export default function Home() {
   
-  const textHp = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, natuseaque ipsa sit ea soluta in. Saepe suscipit nihil expedita voluptatibusrerum nisi necessitatibus eveniet, sint cupiditate ex praesentium quo?"
+  const textHp = "Transformar ideas en realidad digital implica convertir conceptos, proyectos o visiones en aplicaciones, sitios web, software, contenido multimedia u otras formas de contenido digital. "
   
   return (
-    <div className="xl:flex flex justify-center md:flex h-full w-full items-center ">
+    <div className="xl:flex flex justify-center md:flex md:items-start h-max h-screen w-full items-center ">
      <div className="xl:w-1/3 md:w-1/3  flex justify-center hidden md:block xl:block ">
       <AnimatedImage  src='https://res.cloudinary.com/dfxpgwzls/image/upload/v1696093296/3D_Animation_Style_hombre_de_pelo_corto_ondulado_piel_negra_se_0_piroz7.jpg'/>
       </div> 
       <div className="w-full  xl:w-1/2 md:w-1/2  h-full flex justify-center " >
-        <div className="w-full text-center  flex flex-col justify-start md:justify-center md:items-center  xl:pt-20  h-full container ">
+        <div className="w-full text-center  flex flex-col   md:items-center  xl:pt-20  h-full container ">
         
           
-            <TextHome text={'Transformning Ideas into'}/>
+            <TextHome text={'Transformando ideas en'}/>
           
           
           <div className="text-center    max-wsm xl:max-w-xl  text-white xl:mx-0 rounded  ">
 
-          <AnimateTextJB text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, natuseaque ipsa sit ea soluta in. Saepe suscipit nihil expedita voluptatibusrerum nisi necessitatibus eveniet, sint cupiditate ex praesentium quo?"}/>
+          <AnimateTextJB className=" xl:text-left text-center px-3 text-white mb-[50px] text-2xl" text={textHp }/>
           </div>
           <Link
             href="/assets/images/Cv.pdf"

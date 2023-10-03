@@ -243,3 +243,21 @@ export const RowRight = ({ className, ...rest }) => (
     <path d="M31.218 15.838a1.18 1.18 0 0 0-.031-.159l.002.008a1.218 1.218 0 0 0-.305-.571v.001l-10-10a1.25 1.25 0 1 0-1.77 1.768l7.867 7.866H1.999a1.25 1.25 0 0 0 0 2.5H26.98l-7.866 7.865a1.25 1.25 0 0 0 1.769 1.769l10-10.001c.012-.012.016-.029.027-.041.099-.103.18-.223.239-.356l.003-.008v-.003a1.206 1.206 0 0 0 .063-.646l.001.007z" />
   </svg>
 )
+export const Skills = ({ className, ...rest }) => (
+  <svg
+  fill="#FFFFFF"
+    xmlns="http://www.w3.org/2000/svg"
+    fillRule="evenodd"
+    strokeLinejoin="round"
+    strokeMiterlimit={2}
+    clipRule="evenodd"
+    viewBox="0 0 24 24"
+    className={`hover:scale-110 transition ease-in-out  ${className}`}
+    {...rest}
+  >
+    <path
+      fillRule="nonzero"
+      d="M11.6 11a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h6.6a1 1 0 0 0 1-1v-9zm9.4 6a1 1 0 0 0-1-1h-6c-.538 0-1 .477-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1zm0-13a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v9.6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4zm-9.4 0a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v3.6a1 1 0 0 0 1 1h6.6a1 1 0 0 0 1-1V4z"
+    />
+  </svg>
+)
