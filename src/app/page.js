@@ -25,12 +25,15 @@ export default function Home() {
           <AnimateTextJB className=" xl:text-left text-center px-3 text-white mb-[50px] text-2xl" text={textHp }/>
           </div>
           <Link
-            href="/assets/images/Cv.pdf"
+            href="/image-bg/flat-mountains.png"
             className=" bg-slate-100/5 xl:max-w-xl mx-auto text-gray-400 xl:mx-0 rounded w-1/3  flex  rounded-lg text-slate-100 items-center justify-center p-2 hover:bg-slate-100/40 hover:text-slate-800 "
             target={"_blank"}
             download={true}
           >
+            <p>
+
             Curriculum
+            </p>
           </Link>
           <div className="flex justify-center items-start md:items-center xl:items-center relative z-10">
             <ProjectsBtn />
