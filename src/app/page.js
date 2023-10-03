@@ -1,9 +1,3 @@
-/* import Image from "next/image";
-import { ParticlesContainer } from "@/components/ParticlesContainer";
-import { ProjectsBtn } from "@/components/ProjectsBtn";
-import { Avatar } from "@/components/Avatar";
-import { motion } from "framer-motion";*/
-
 import { AnimateTextJB } from "@/components/AnimateTextJB";
 import { AnimatedImage } from "@/components/AnimatedImage";
 import { ProjectsBtn } from "@/components/ProjectsBtn";

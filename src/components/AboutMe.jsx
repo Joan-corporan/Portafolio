@@ -1,4 +1,4 @@
-
+"use client"
 import React from 'react'
 import { AnimatedImage } from './AnimatedImage'
 import { AnimateTextJB } from './AnimateTextJB'
@@ -20,7 +20,7 @@ export const AboutMe = () => {
               <h3 className="text-amber-400 font-bold text-2xl" >BIOGRAFIA</h3>
              
               <AnimateTextJB className=" xl:text-left text-center px-3 text-white mb-[50px] text-2xl"  text={textAbout}/>
-              
+
               <h3 className="text-amber-400 font-bold text-2xl" >Skills</h3>
               <div className='flex justify-center gap-4 flex-wrap w-full mb-[200px] p-7 h-[200px]'>
                 <article className='circle bg-[url(https://res.cloudinary.com/dfxpgwzls/image/upload/v1696306140/html-5-svgrepo-com_udnd00.svg)] bg-cover bg-center animate-bounce'>
