@@ -8,11 +8,11 @@ export const NavbarOrigin = () => {
 
       <div className=" flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[80px] xl:h-max py-8 text-xl text-xl xl:rounded-full  ">
         <Link href="/"
-          className="hover:scale-110 transition ease-in-out p-3 rounded-lg flex w-full flex-col items-center justify-center  hover:bg-slate-100/30"
+          className="hover:scale-110 transition ease-in-out p-3 rounded-lg flex w-full flex-col items-center justify-center  hover:bg-slate-100/30 "
           
         >
-          <div className="w-7 ">
-            <HomeRN className="w-full h-8 " />
+          <div className="w-7  ">
+            <HomeRN className="w-full h-8  " />
           </div>
           <div>
             <p className="text-white ">Home</p>

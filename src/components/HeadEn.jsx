@@ -12,25 +12,25 @@ export const HeadEn = () => {
             Joan
           </h1>
           </Link>
-          <span className="text-transparent">B</span>
+          
             <p className="text-3xl font-light text-white" >
               Corporán <span className="font-bold text-amber-400">.</span>
             </p>
         </div>
         <div  className=" my-2 flex justify-center items-center">
-          <nav className="flex w-full  my-2 gap-x-5 justify-center  items-center"> 
-          <a target={"_blank"} href="https://github.com/Joan-corporan?tab=repositories">
-              <GitHubB />
+          <nav className="flex w-full  my-2 gap-x-5 justify-center  items-center  "> 
+          <a className='hover:animate-bounce py-3 cursor-pointer' target={"_blank"} href="https://github.com/Joan-corporan?tab=repositories ">
+              <GitHubB  />
             </a>
-            <a target={"_blank"} href="/">
+            <a className='hover:animate-bounce py-3 cursor-pointer' target={"_blank"} href="/">
               <Facebook />
             </a>
            
-            <a target={"_blank"} href="/">
-              <Instagram/>
+            <a className='hover:animate-bounce py-3 cursor-pointer' target={"_blank"} href="/">
+              <Instagram />
             </a>
-            <a target={"_blank"} href="https://www.linkedin.com/in/joan-corporan-hern%C3%A1ndez-a16992268/">
-              <LinkedinB/>
+            <a className='hover:animate-bounce py-3 cursor-pointer' target={"_blank"} href="https://www.linkedin.com/in/joan-corporan-hern%C3%A1ndez-a16992268/">
+              <LinkedinB />
             </a>
           </nav>
         </div>

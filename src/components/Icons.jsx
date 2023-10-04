@@ -13,22 +13,43 @@ export const XIcon = ({ className, ...rest }) => (
   </svg>
 );
 
-export const GitHubB  = ({ className, ...rest }) => (
-  <svg fill="#FFFFFF"  xmlns="http://www.w3.org/2000/svg" width={24} height={24} className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`} {...rest}>
-  <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
-</svg>
+export const GitHubB = ({ className, ...rest }) => (
+  <svg
+    fill="#FFFFFF"
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`}
+    {...rest}
+  >
+    <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+  </svg>
 );
 
-export const  Facebook = ({ className, ...rest }) => (
-  <svg fill="#FFFFFF"  xmlns="http://www.w3.org/2000/svg" width={24} height={24}  className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`} {...rest}>
-  <path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.378 14.192 5 15.115 5H18V0h-3.808C10.596 0 9 1.583 9 4.615V8z" />
-</svg>
+export const Facebook = ({ className, ...rest }) => (
+  <svg
+    fill="#FFFFFF"
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`}
+    {...rest}
+  >
+    <path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.378 14.192 5 15.115 5H18V0h-3.808C10.596 0 9 1.583 9 4.615V8z" />
+  </svg>
 );
 export const Instagram = ({ className, ...rest }) => (
-  <svg fill="#FFFFFF"  xmlns="http://www.w3.org/2000/svg" width={24} height={24}  className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`} {...rest}>
+  <svg
+    fill="#FFFFFF"
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`}
+    {...rest}
+  >
     <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
   </svg>
-)
+);
 
 export const GitHubIcon = ({ className, ...rest }) => (
   <svg
@@ -50,10 +71,17 @@ export const GitHubIcon = ({ className, ...rest }) => (
 );
 /* Hover */
 export const LinkedinB = ({ className, ...rest }) => (
-  <svg fill="#FFFFFF"   xmlns="http://www.w3.org/2000/svg" width={24} height={24} className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`} {...rest}>
+  <svg
+    fill="#FFFFFF"
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    className={` w-full h-auto ${className}`}
+    {...rest}
+  >
     <path d="M19 0H5a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zM8 19H5V8h3v11zM6.5 6.732c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765c1.396-2.586 7-2.777 7 2.476V19z" />
   </svg>
-)
+);
 export const LinkedInIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -219,45 +247,73 @@ export const CircularText = ({ className, ...rest }) => (
   </svg>
 );
 export const HomeRN = ({ className, ...rest }) => (
-  <svg fill="#FFFFFF"  xmlns="http://www.w3.org/2000/svg" width="1em"
-  height="1em"  className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`} {...rest}>
+  <svg
+    fill="#FFFFFF"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`}
+    {...rest}
+  >
     <path d="m12 6.453 9 8.375V24h-6v-6H9v6H3v-9.172l9-8.375zm12 5.695L12 1 0 12.133l1.361 1.465L12 3.73l10.639 9.883L24 12.148z" />
   </svg>
-)
+);
 export const UserAboutme = ({ className, ...rest }) => (
-  <svg fill="#FFFFFF"  xmlns="http://www.w3.org/2000/svg" width="1em"
-  height="1em" className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`} {...rest}>
+  <svg
+    fill="#FFFFFF"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`}
+    {...rest}
+  >
     <path d="M20.822 18.096c-3.439-.794-6.641-1.49-5.09-4.418C20.451 4.766 16.983 0 12 0 6.919 0 3.536 4.949 8.268 13.678c1.597 2.945-1.725 3.641-5.09 4.418C.199 18.784 0 20.239 0 22.759L.005 24h10.483l.704-3h1.615l.704 3h10.483l.005-1.241c.001-2.52-.198-3.975-3.177-4.663zM12.591 20h-1.164l-.91-2h2.994l-.92 2z" />
   </svg>
-)
+);
 export const ProjectsNav = ({ className, ...rest }) => (
-  <svg fill="#FFFFFF"  xmlns="http://www.w3.org/2000/svg" width="1em"
-  height="1em" className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`} {...rest}>
+  <svg
+    fill="#FFFFFF"
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`}
+    {...rest}
+  >
     <path d="M4 4v20h20V4H4zm18 18H6V9h16v13zm-3-3H9v-1h10v1zm0-3H9v-1h10v1zm0-3H9v-1h10v1zm3-10H3v19H2V2h20v1zm-2-2H1v19H0V0h20v1z" />
   </svg>
-)
+);
 export const RowRight = ({ className, ...rest }) => (
-  <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" width="3em"
-  height="3em" viewBox="0 0 32 32" className={`hover:scale-110 transition ease-in-out  ${className}`} {...rest}>
-    <title>{"arrow-right"}</title>
-    <path d="M31.218 15.838a1.18 1.18 0 0 0-.031-.159l.002.008a1.218 1.218 0 0 0-.305-.571v.001l-10-10a1.25 1.25 0 1 0-1.77 1.768l7.867 7.866H1.999a1.25 1.25 0 0 0 0 2.5H26.98l-7.866 7.865a1.25 1.25 0 0 0 1.769 1.769l10-10.001c.012-.012.016-.029.027-.041.099-.103.18-.223.239-.356l.003-.008v-.003a1.206 1.206 0 0 0 .063-.646l.001.007z" />
-  </svg>
-)
-export const Skills = ({ className, ...rest }) => (
   <svg
-  fill="#FFFFFF"
+    fill="#FFFFFF"
     xmlns="http://www.w3.org/2000/svg"
-    fillRule="evenodd"
-    strokeLinejoin="round"
-    strokeMiterlimit={2}
-    clipRule="evenodd"
-    viewBox="0 0 24 24"
+    width="3em"
+    height="3em"
+    viewBox="0 0 32 32"
     className={`hover:scale-110 transition ease-in-out  ${className}`}
     {...rest}
   >
+    <title>{"arrow-right"}</title>
+    <path d="M31.218 15.838a1.18 1.18 0 0 0-.031-.159l.002.008a1.218 1.218 0 0 0-.305-.571v.001l-10-10a1.25 1.25 0 1 0-1.77 1.768l7.867 7.866H1.999a1.25 1.25 0 0 0 0 2.5H26.98l-7.866 7.865a1.25 1.25 0 0 0 1.769 1.769l10-10.001c.012-.012.016-.029.027-.041.099-.103.18-.223.239-.356l.003-.008v-.003a1.206 1.206 0 0 0 .063-.646l.001.007z" />
+  </svg>
+);
+
+export const Download = ({ className, ...rest }) => (
+  <svg
+  xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    stroke="#fff"
+    strokeWidth={1.344}
+    viewBox="0 0 24 24"
+    width="1.8em"
+    height="1.8em"
+    className={`hover:scale-110 transition ease-in-out  ${className}`}
+    {...rest}
+  >
+    <path />
     <path
-      fillRule="nonzero"
-      d="M11.6 11a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h6.6a1 1 0 0 0 1-1v-9zm9.4 6a1 1 0 0 0-1-1h-6c-.538 0-1 .477-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1zm0-13a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v9.6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4zm-9.4 0a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v3.6a1 1 0 0 0 1 1h6.6a1 1 0 0 0 1-1V4z"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M5 12v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-6M12 3v12m0 0 4-4m-4 4-4-4"
     />
   </svg>
-)
+);
