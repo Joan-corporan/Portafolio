@@ -19,17 +19,17 @@ export const HeadEn = () => {
         </div>
         <div  className=" my-2 flex justify-center items-center">
           <nav className="flex w-full  my-2 gap-x-5 justify-center  items-center  "> 
-          <a className='hover:animate-bounce py-3 cursor-pointer' target={"_blank"} href="https://github.com/Joan-corporan?tab=repositories ">
+          <a className='hover:animate-spin-slow py-3 cursor-pointer' target={"_blank"} href="https://github.com/Joan-corporan?tab=repositories ">
               <GitHubB  />
             </a>
-            <a className='hover:animate-bounce py-3 cursor-pointer' target={"_blank"} href="/">
+            <a className='hover:animate-spin-slow py-3 cursor-pointer' target={"_blank"} href="/">
               <Facebook />
             </a>
            
-            <a className='hover:animate-bounce py-3 cursor-pointer' target={"_blank"} href="/">
+            <a className='hover:animate-spin-slow py-3 cursor-pointer' target={"_blank"} href="/">
               <Instagram />
             </a>
-            <a className='hover:animate-bounce py-3 cursor-pointer' target={"_blank"} href="https://www.linkedin.com/in/joan-corporan-hern%C3%A1ndez-a16992268/">
+            <a className='hover:animate-spin-slow py-3 cursor-pointer' target={"_blank"} href="https://www.linkedin.com/in/joan-corporan-hern%C3%A1ndez-a16992268/">
               <LinkedinB />
             </a>
           </nav>
