@@ -27,7 +27,7 @@ export default function Home() {
           
           <div className="text-center    max-wsm xl:max-w-xl  text-white xl:mx-0 rounded  ">
 
-          <AnimateTextJB className=" xl:text-left text-center px-3 text-white mb-[50px] text-2xl" text={textHp }/>
+          <AnimateTextJB className=" xl:text-left text-center px-3 text-white mb-[50px] text-xl md:text-2xl xl:text-2xl" text={textHp }/>
           </div>
           <Link
             href="/image-bg/flat-mountains.png"
@@ -37,7 +37,7 @@ export default function Home() {
           >
             <p className="w-full flex justify-center items-center ">
 
-            <span className="text-lg font-medium p-2 ">Curriculum</span>  <span>
+            <span className="text-lg font-medium p-2  ">Curriculum</span>  <span>
               <Download/>
             </span>
             </p>

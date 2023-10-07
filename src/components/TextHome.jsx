@@ -10,9 +10,9 @@ const singleWord = {
 };
 export const TextHome = ({ text, className = "" }) => {
   return (
-    <div className="w-full  py-2 flex items-center justify-center   text-center ">
+    <div className="w-full  py-2 flex items-center justify-center   text-center mt-7 ">
       <motion.h1
-        className={`className="bg-slate-100/5 xl:max-w-xl p-[10px] rounded xl:text-5xl md:text-3xl text-2xl text-white ${className}`}
+        className={`className="bg-slate-100/5 xl:max-w-xl p-[10px] rounded xl:text-5xl md:text-3xl text-3xl text-white ${className}`}
         variants={quote}
         initial="initial"
         animate="animate"

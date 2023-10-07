@@ -18,7 +18,7 @@ const page = () => {
           <div>
             <h1 className="text-2xl py-2">Ecommerce App</h1>
             <p className="text-lg">
-              Una aplicación de reservas para restaurant .<br /> tecnologías: <br /> 
+              App Juguetería .<br /> tecnologías: <br /> 
               <span className="text-red-700"> HTML</span>,
               <span className="text-cyan-600">CSS</span>,
               <span className="text-yellow-400">JS</span>,
