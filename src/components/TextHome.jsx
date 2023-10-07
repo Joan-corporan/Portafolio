@@ -28,7 +28,7 @@ export const TextHome = ({ text, className = "" }) => {
             {word}&nbsp;
           </motion.span>
         ))}
-        <span className="text-amber-400">Realidad Digital</span>
+        <span className="text-amber-300">Realidad Digital</span>
       </motion.h1>
     </div>
   );

@@ -7,7 +7,7 @@ export const metadata={
 
 const page = () => {
   return (
-    <div className="md:mx-16 xl:mx-32 mx-[16px] h-full flex-col  justify-around pb-[100px] items-center ">
+    <div className="md:mx-16 xl:ml-20 xl:mr-40 mx-[16px] h-full flex-col  justify-around pb-[100px] items-center ">
       <div className=" w-full xl:flex  xl:justify-around md:flex md:justify-center mb-3  xl:m-3   md:m-3 ">
         <div className="rounded text-gray-800 bg-slate-100/70 w-full xl:w-1/2  md:w-1/2 p-3 xl:m-3 md:m-3 shadow-lg  mb-3 ">
           <div >

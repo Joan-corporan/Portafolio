@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className=' bg-gradient-to-r from-emerald-300 to-blue-500   w-full   '>
+        <div className=' bg-[url(https://res.cloudinary.com/dfxpgwzls/image/upload/v1696695706/sun-tornado_n0ksaq.png)] bg-cover bg-no-repet  w-full   '>
           <div className="h-full" >
           
             <div className="h-full"  >
