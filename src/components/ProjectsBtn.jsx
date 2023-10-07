@@ -8,7 +8,7 @@ export const ProjectsBtn = () => {
   return (
     <div className='mx-auto xl:mx-0 mb-[75px] '>
       <Link href={'/projects'} className='relative w-[185px] h-[185px] flex justify-center items-center  bg-cover bg-center '>
-      <Image src={'/image-bg/rounded-text.png'}
+      <Image src={'https://res.cloudinary.com/dfxpgwzls/image/upload/v1696696241/rounded-text_xze9yp.png'}
       width={100}
       height={100}
       alt=''
