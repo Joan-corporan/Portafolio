@@ -24,8 +24,8 @@ export const AnimateTextJB = ({  text, className = "" }) => {
             className="inline-block"
             variants={singleWord}
             >
-            {" "}
-            {word}&nbsp;{" "}
+            
+            {word}&nbsp;
           </motion.span>
         ))}
     </motion.p>

@@ -252,7 +252,7 @@ export const HomeRN = ({ className, ...rest }) => (
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
-    className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`}
+    className={`hover:scale-105 transition ease-in-out w-full h-auto ${className}`}
     {...rest}
   >
     <path d="m12 6.453 9 8.375V24h-6v-6H9v6H3v-9.172l9-8.375zm12 5.695L12 1 0 12.133l1.361 1.465L12 3.73l10.639 9.883L24 12.148z" />
@@ -264,7 +264,7 @@ export const UserAboutme = ({ className, ...rest }) => (
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
-    className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`}
+    className={`hover:scale-105 transition ease-in-out w-full h-auto ${className}`}
     {...rest}
   >
     <path d="M20.822 18.096c-3.439-.794-6.641-1.49-5.09-4.418C20.451 4.766 16.983 0 12 0 6.919 0 3.536 4.949 8.268 13.678c1.597 2.945-1.725 3.641-5.09 4.418C.199 18.784 0 20.239 0 22.759L.005 24h10.483l.704-3h1.615l.704 3h10.483l.005-1.241c.001-2.52-.198-3.975-3.177-4.663zM12.591 20h-1.164l-.91-2h2.994l-.92 2z" />
@@ -276,7 +276,7 @@ export const ProjectsNav = ({ className, ...rest }) => (
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
-    className={`hover:scale-110 transition ease-in-out w-full h-auto ${className}`}
+    className={`hover:scale-105 transition ease-in-out w-full h-auto ${className}`}
     {...rest}
   >
     <path d="M4 4v20h20V4H4zm18 18H6V9h16v13zm-3-3H9v-1h10v1zm0-3H9v-1h10v1zm0-3H9v-1h10v1zm3-10H3v19H2V2h20v1zm-2-2H1v19H0V0h20v1z" />

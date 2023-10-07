@@ -4,6 +4,10 @@ import { Download } from "@/components/Icons";
 import { ProjectsBtn } from "@/components/ProjectsBtn";
 import { TextHome } from "@/components/TextHome";
 import Link from "next/link";
+export const metadata ={
+  title:'Joan Corporan',
+  description:'Joan Corporan Hernandez, Portafolio Joan Corporan Hernandez'
+}
 
 export default function Home() {
   

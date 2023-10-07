@@ -17,19 +17,19 @@ export const TextHome = ({ text, className = "" }) => {
         initial="initial"
         animate="animate"
       >
-        {" "}
+        
         {text.split(" ").map((word, index) => (
             <motion.span
             key={word + "-" + index}
             className="inline-block"
             variants={singleWord}
             >
-            {" "}
-            {word}&nbsp;{" "}
+            
+            {word}&nbsp;
           </motion.span>
-        ))}{" "}
+        ))}
         <span className="text-amber-400">Realidad Digital</span>
-      </motion.h1>{" "}
+      </motion.h1>
     </div>
   );
 };
