@@ -30,7 +30,7 @@ export default function Home() {
           <AnimateTextJB className=" xl:text-left text-center px-3 text-white mb-[50px] text-xl md:text-2xl xl:text-2xl" text={textHp }/>
           </div>
           <Link
-            href="/image-bg/flat-mountains.png"
+            href="/image-bg/CV_Practica _Joan _Corporan.pdf"
             className=" bg-slate-100/5 xl:max-w-xl mx-auto text-gray-400 xl:mx-0 rounded w-1/3  flex  rounded-lg text-slate-100 items-center justify-around p-2 hover:bg-slate-100/40 hover:text-slate-800 hover:scale-110 transition ease-in-out "
             target={"_blank"}
             download={true}
