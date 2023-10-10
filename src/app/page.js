@@ -15,8 +15,8 @@ export default function Home() {
   
   return (
     <div className="xl:flex flex justify-center md:flex md:items-start h-max h-screen w-full items-center ">
-     <div className="xl:w-1/3 md:w-1/3  flex justify-center hidden md:block xl:block ">
-      <AnimatedImage  src='https://res.cloudinary.com/dfxpgwzls/image/upload/v1696093296/3D_Animation_Style_hombre_de_pelo_corto_ondulado_piel_negra_se_0_piroz7.jpg'/>
+     <div className="xl:w-1/3 md:w-1/3  flex justify-center hidden md:block xl:block  ">
+      <AnimatedImage   src='https://res.cloudinary.com/dfxpgwzls/image/upload/v1696093296/3D_Animation_Style_hombre_de_pelo_corto_ondulado_piel_negra_se_0_piroz7.jpg'/>
       </div> 
       <div className="w-full  xl:w-1/2 md:w-1/2  h-full flex justify-center  mb-[100px]" >
         <div className="w-full text-center  flex flex-col    md:items-center  xl:pt-20  h-full container ">

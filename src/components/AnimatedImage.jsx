@@ -28,7 +28,7 @@ export const AnimatedImage = ({src}) => {
           initial="initial"
           animate="animate"
           variants={desdeIzquierda}
-          className="w-full"
+          
         >
            {/* Image es la etiqueta que nos ofrece netx y para hacer ver la imagene se necesita colocar el width y el height  */}
           <Image 
