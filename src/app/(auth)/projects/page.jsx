@@ -60,9 +60,9 @@ const page = () => {
             </a>
           </div>
           <div>
-            <h1 className="text-2xl py-2">Landing page</h1>
-            <p className="text-lg">
-            Este es un prototipo basado en un ecommerce.<br /> tecnologías: <br /> 
+            <h1 className="text-2xl py-2">CRUD</h1>
+            <p className="text-lg">Prototipo que crea, lee, actualiza y elimina datos de forma rapida y amigable
+          .<br /> tecnologías: <br /> 
               <span className="text-red-700">HTML</span>,
               <span className="text-cyan-600">BOOTSTRAP</span>,
               <span className="text-amber-600">JS</span>,
