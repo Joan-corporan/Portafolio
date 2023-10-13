@@ -11,7 +11,7 @@ const page = () => {
       <div className=" w-full xl:flex  xl:justify-around md:flex md:justify-center mb-3  xl:m-3   md:m-3 ">
         <div className="rounded text-gray-800 bg-slate-100/70 w-full xl:w-1/2  md:w-1/2 p-3 xl:m-3 md:m-3 shadow-lg  mb-3 ">
           <div >
-            <a className="flex justify-center  " href="https://effulgent-cobbler-7da35b.netlify.app/">
+            <a className="flex justify-center  " href="https://effulgent-cobbler-7da35b.netlify.app/" target={"_blank"}>
               <Images  src="https://res.cloudinary.com/dfxpgwzls/image/upload/v1696529693/Captura_de_Pantalla_2023-10-05_a_la_s_15.14.18_z8ihe0.png" />
             </a>
           </div>
@@ -35,7 +35,7 @@ const page = () => {
 
         <div className="rounded text-gray-800 bg-slate-100/70 w-full xl:w-1/2  md:w-1/2 p-3 xl:m-3 md:m-3 shadow-lg  ">
           <div >
-            <a className="flex justify-center" href="alejandroarafi.github.io/proyecto3/">
+            <a className="flex justify-center " target={"_blank"}href="alejandroarafi.github.io/proyecto3/">
               <Images src="https://res.cloudinary.com/dfxpgwzls/image/upload/v1696528486/Captura_de_Pantalla_2023-10-05_a_la_s_14.54.00_vdqmmz.png" />
             </a>
           </div>
@@ -55,8 +55,8 @@ const page = () => {
       <div className="w-full xl:flex  xl:justify-around md:flex md:justify-center  xl:m-3    md:m-3  ">
         <div className="rounded text-gray-800 bg-slate-100/70 w-full xl:w-1/2  md:w-1/2 p-3 xl:m-3 md:m-3 shadow-lg mb-3">
           <div className="">
-            <a className="flex justify-center" href="https://joan-corporan.github.io/PROYECTO-1/">
-              <Images src="https://res.cloudinary.com/dfxpgwzls/image/upload/v1696530760/Captura_de_Pantalla_2023-10-05_a_la_s_15.31.28_wzszb9.png" />
+            <a className="flex justify-center" target={"_blank"} href="joan-corporan.github.io/CRUD/">
+              <Images src="https://res.cloudinary.com/dfxpgwzls/image/upload/v1697205322/Captura_de_Pantalla_2023-10-13_a_la_s_10.54.13_esq1v6.png" />
             </a>
           </div>
           <div>
@@ -64,7 +64,8 @@ const page = () => {
             <p className="text-lg">
             Este es un prototipo basado en un ecommerce.<br /> tecnologías: <br /> 
               <span className="text-red-700">HTML</span>,
-              <span className="text-cyan-600">CSS</span>,
+              <span className="text-cyan-600">BOOTSTRAP</span>,
+              <span className="text-amber-600">JS</span>,
               
             </p>
           </div>
@@ -72,7 +73,7 @@ const page = () => {
 
         <div className="rounded text-gray-800 bg-slate-100/70 w-full xl:w-1/2  md:w-1/2 p-3 xl:m-3 md:m-3 shadow-lg  mb-3 ">
           <div className="flex justify-center">
-            <a href="https://joan-corporan.github.io/PROYECTO-2-CRUD/">
+            <a href="https://proyecto4-react.netlify.app/" target={"_blank"}>
               <Images src="https://res.cloudinary.com/dfxpgwzls/image/upload/v1696524105/Captura_de_Pantalla_2023-10-05_a_la_s_13.34.16_mchoyt.png" />
             </a>
           </div>
