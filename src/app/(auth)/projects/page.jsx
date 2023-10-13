@@ -61,7 +61,7 @@ const page = () => {
           </div>
           <div>
             <h1 className="text-2xl py-2">CRUD</h1>
-            <p className="text-lg">Prototipo que crea, lee, actualiza y elimina datos de forma rapida y amigable
+            <p className="text-lg">Prototipo que crea, lee, actualiza y elimina datos de forma rápida y amigable
           .<br /> tecnologías: <br /> 
               <span className="text-red-700">HTML</span>,
               <span className="text-cyan-600">BOOTSTRAP</span>,
